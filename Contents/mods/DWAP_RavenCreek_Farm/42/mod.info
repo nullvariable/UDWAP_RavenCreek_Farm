@@ -1,0 +1,5 @@
+name=UDWAP Raven Creek Farm
+id=DWAP_RavenCreek_Farm
+description=Adds generator and water support to remote farm in Raven Creek
+authors=nullvariable
+require=\RavenCreekB42

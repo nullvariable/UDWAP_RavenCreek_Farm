@@ -1,0 +1,52 @@
+VERSION = 1,
+
+option DWAP_RavenCreek_Farm.MakePrimary
+{
+	type = boolean,
+	default = false,
+
+	page = DWAP_RavenCreek_Farm_General,
+	translation = DWAP_RavenCreek_Farm_MakePrimary,
+}
+
+option DWAP_RavenCreek_Farm.KeyAndMap
+{
+	type = enum,
+	numValues = 2,
+	default = 1,
+
+	page = DWAP_RavenCreek_Farm_General,
+	translation = DWAP_RavenCreek_Farm_KeyAndMap,
+	valueTranslation = DWAP_RavenCreek_Farm_KeyAndMap_value,
+}
+
+option DWAP_RavenCreek_Farm.EssentialLoot
+{
+	type = enum,
+	numValues = 3,
+	default = 1,
+
+	page = DWAP_RavenCreek_Farm_General,
+	translation = DWAP_RavenCreek_Farm_EssentialLoot,
+	valueTranslation = DWAP_RavenCreek_Farm_EssentialLoot_value,
+}
+
+option DWAP_RavenCreek_Farm.RegularLoot
+{
+	type = enum,
+	numValues = 5,
+	default = 1,
+
+	page = DWAP_RavenCreek_Farm_General,
+	translation = DWAP_RavenCreek_Farm_RegularLoot,
+	valueTranslation = DWAP_RavenCreek_Farm_RegularLoot_value,
+}
+
+option DWAP_RavenCreek_Farm.ExtraLoot
+{
+	type = boolean,
+	default = false,
+
+	page = DWAP_RavenCreek_Farm_General,
+	translation = DWAP_RavenCreek_Farm_ExtraLoot,
+}
